@@ -1,7 +1,7 @@
 {
   "name": "olcaytaner/dictionary",
   "version": "1.0.0",
-  "description": "Dictionary utils",
+  "description": "Dictionary processing library",
   "type": "library",
   "license": "GPL-3.0-or-later",
   "autoload": {
