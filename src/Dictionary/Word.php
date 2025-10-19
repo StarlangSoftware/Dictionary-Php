@@ -24,7 +24,7 @@ class Word
      *
      * @return string the name variable.
      */
-    public function toString(): string
+    public function __toString(): string
     {
         return $this->name;
     }

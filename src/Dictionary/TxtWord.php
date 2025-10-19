@@ -919,9 +919,9 @@ class TxtWord extends Word
         return in_array($flag, $this->flags);
     }
 
-    public function toString(): string
+    public function __toString(): string
     {
-        $result = parent::toString();
+        $result = parent::__toString();
         foreach ($this->flags as $flag) {
             $result .= " " . $flag;
         }
