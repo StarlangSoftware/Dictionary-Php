@@ -114,7 +114,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(9687, $count);
+        $this->assertEquals(11006, $count);
     }
 
     public function testIsPronoun(){
@@ -306,7 +306,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(315, $count);
+        $this->assertEquals(320, $count);
     }
 
     public function testObeysAndNotObeysVowelHarmonyDuringAgglutination(){
@@ -330,7 +330,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(5530, $count);
+        $this->assertEquals(6939, $count);
     }
 
     public function testRootSoftenAndNotSoftenDuringSuffixation(){
@@ -342,7 +342,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(14, $count);
+        $this->assertEquals(15, $count);
     }
 
     public function testVerbSoftenDuringSuffixation(){
@@ -366,7 +366,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(5444, $count);
+        $this->assertEquals(6853, $count);
     }
 
     public function testEndingKChangesIntoG(){
