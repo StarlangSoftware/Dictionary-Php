@@ -54,7 +54,7 @@ class TxtWordTest extends TestCase
                 $count++;
             }
         }
-        $this->assertEquals(30603, $count);
+        $this->assertEquals(30625, $count);
     }
 
     public function testIsPassive(){
